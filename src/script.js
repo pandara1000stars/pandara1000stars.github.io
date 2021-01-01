@@ -15,13 +15,14 @@ function openResult() {
     document.body.style.overflow = 'hidden';
 
     setTimeout(() => {
-        this.index = Math.floor((Math.random() * 72) + 1);
-        //this.index = 18;
+      this.index = Math.floor((Math.random() * 72));
+//        this.index = 47;
         btnWrp.style.display = 'flex';
         loading.style.display = 'none';
-        desc.innerHTML = this.desc[index];
-        let urlImg = './src/images/' + (index) + '.png';
+        desc.innerHTML = this.desc[this.index];
+        let urlImg = './src/images/' + (this.index+1) + '.png';
         picture.innerHTML = `<img src="` + urlImg + `" alt="">`;
+//		console.log(this.desc[14])
         topic.innerHTML = 'แสงสว่างนำชีวิตในปีใหม่นี้ของท่านคือ...';
     }, 5000);
 }
@@ -171,7 +172,7 @@ var desc = [
 บารมีหกจะช่วยให้เราไปจากสังสารวัฏ บารมีอันไม่มีวิธีการใดเทียบเทียมได้ รื้อขนสรรพสัตว์ไปสู่นิพพาน
 ⁣</div>
 - อ.กฤษดาวรรณ (เกซัง ตาวา) -`,
-,
+
 
 `<div class="_desc">ข้อธรรม 16 ทานบารมี ตามคัมภีร์ลัมริม คือ การให้ด้วยใจ ตั้งแต่เราเอาอะไรไปให้ใคร หรือเราให้พระธรรมเป็นทาน หรือเราทำสิ่งที่เรียกว่าอภัยทาน รวมการให้ชีวิตสัตว์ การให้การคุ้มครอง หรือให้ความช่วยเหลือ ไม่ว่าเราจะให้ด้วยการกระทำใดก็ตาม การให้นั้นต้องมาที่ใจเราก่อน ถ้าการให้ไม่ได้เกิดขึ้นที่ใจ ไม่สามารถเรียกว่า ‘ทานบารมี’
 
