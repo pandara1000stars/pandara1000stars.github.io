@@ -41,6 +41,7 @@ function resetApp() {
     desc.innerHTML = '';
     picture.innerHTML = '';
     btnWrp.style.display = 'none';
+    document.body.style.overflow = 'auto';
 }
 
 function share () {
