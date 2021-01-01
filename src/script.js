@@ -23,7 +23,7 @@ function openResult() {
         let urlImg = './src/images/' + (this.index+1) + '.png';
         picture.innerHTML = `<img src="` + urlImg + `" alt="">`;
 //		console.log(this.desc[14])
-        topic.innerHTML = 'แสงสว่างนำชีวิตในปีใหม่นี้ของท่านคือ...';
+        topic.innerHTML = 'ธรรมะเตือนใจแสงสว่างบทหนทางธรรมที่ได้คือ ...';
     }, 5000);
 }
 

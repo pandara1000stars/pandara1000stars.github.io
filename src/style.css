@@ -199,7 +199,7 @@ font-size: 20px;
 border: none;
 border-radius: 5px;
 color: white;
-background: gray;
+background: #E48800;
 outline: none;
 text-align: center;
 cursor: pointer;
@@ -208,7 +208,7 @@ margin-right: 10px;
 
 ._top > h3 {
     text-align: center;
-    color: #8E896F;
+    color: #E48800;
     font-size: 35px;
     margin: 0;
 }
