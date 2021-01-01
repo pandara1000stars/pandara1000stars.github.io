@@ -15,12 +15,12 @@ function openResult() {
     document.body.style.overflow = 'hidden';
 
     setTimeout(() => {
-        this.index = Math.floor((Math.random() * 19) + 1);
-        // this.index = 19;
+        this.index = Math.floor((Math.random() * 72) + 1);
+        //this.index = 18;
         btnWrp.style.display = 'flex';
         loading.style.display = 'none';
-        desc.innerHTML = this.desc[index-1];
-        let urlImg = './src/images/' + index + '.png';
+        desc.innerHTML = this.desc[index];
+        let urlImg = './src/images/' + (index) + '.png';
         picture.innerHTML = `<img src="` + urlImg + `" alt="">`;
         topic.innerHTML = 'แสงสว่างนำชีวิตในปีใหม่นี้ของท่านคือ...';
     }, 5000);
