@@ -1,10 +1,15 @@
 body {
+/*
     background: rgb(225,212,149);
     background: linear-gradient(357deg, rgba(225,212,149,1) 0%, rgba(252,246,215,1) 100%);
+*/
     width: 100%;
+	background-image: url("./images/bg1.png");
     height: 100%;
     background-attachment: fixed;
     margin: 0;
+	background-size: cover;
+	background-position: center;
 }
 
 html {
@@ -23,7 +28,7 @@ html {
 }
 
 h1 {
-    color: #8E896F;
+    color: #E48800;
     text-align: center;
     margin-bottom: 0;
 }
@@ -52,7 +57,7 @@ h1 {
     border: none;
     border-radius: 10px;
     color: white;
-    background: gray;
+    background: #E48800;
     outline: none;
     cursor: pointer;
 }
@@ -217,8 +222,8 @@ margin-right: 10px;
 }
 
 ._desc {
-    font-size: 25px;
-font-weight: bold;
+    font-size: 20px;
+font-weight: normal;
 text-align: center;
 padding: 20px;
 }
@@ -269,7 +274,7 @@ padding: 20px;
 
     .box {
         max-height: 500px !important;
-        background-position: right;
+        background-position: center;
     }
 
     .desc-wrap {
